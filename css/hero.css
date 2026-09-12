@@ -1,0 +1,37 @@
+.hero {
+  background: #2e2f42;
+}
+.section.hero {
+  padding: 188px;
+}
+.hero-container {
+  padding: 0 15px;
+
+  max-width: 1158px;
+}
+.hero-title {
+  max-width: 496px;
+
+  margin: 0 auto 48px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  text-align: center;
+  color: #fff;
+}
+.btn {
+  display: block;
+  margin: auto;
+
+  border-radius: 4px;
+  padding: 16px 32px;
+  letter-spacing: 0.04em;
+  background: #4d5ae5;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+  background: #404bbf;
+}

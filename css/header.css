@@ -1,0 +1,47 @@
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+}
+.main-nav {
+  margin-right: auto;
+  margin-left: 76px;
+}
+
+.main-nav-list {
+  display: inline-flex;
+
+  gap: 40px;
+}
+.main-nav-link {
+  display: block;
+
+  padding: 24px 0;
+}
+.main-nav-item {
+}
+.main-nav-link:focus,
+.main-nav-link:hover {
+  color: #404bbf;
+}
+
+.social-list {
+  display: inline-flex;
+  align-items: center;
+  gap: 40px;
+}
+.social-item {
+}
+.social-link {
+  display: block;
+  padding: 24px 0;
+  font-weight: 500;
+}
+.social-link:focus,
+.social-link:hover {
+  color: #404bbf;
+}
