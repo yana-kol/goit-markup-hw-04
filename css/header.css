@@ -18,8 +18,8 @@
   gap: 40px;
 }
 .main-nav-link {
+  position: relative;
   display: block;
-
   padding: 24px 0;
 }
 .main-nav-item {
@@ -42,6 +42,19 @@
   font-weight: 500;
 }
 .social-link:focus,
-.social-link:hover {
+.social-link:hover,
+.main-nav-link.current {
   color: #404bbf;
+}
+.main-nav-link.current::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  border-radius: 2px;
+
+  height: 4px;
+  background: #404bbf;
 }

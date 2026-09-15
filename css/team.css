@@ -37,7 +37,30 @@
   width: 264px;padding: 32px;
   height: 120px;*/
 }
+.team-social .link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  background: #4d5ae5;
+  color: white;
+}
+
+.team-social {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
 .team-wrapper {
   display: flex;
   flex-direction: column;
+}
+
+.team-social .link:hover {
+  color: white;
+  background: #404bbf;
 }

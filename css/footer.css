@@ -14,3 +14,33 @@
   font-weight: 400;
   color: #f4f4fd;
 }
+.footer-social-media {
+  margin: 0 0 0 120px;
+}
+.footer-social .link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  background: #4d5ae5;
+  color: white;
+}
+.footer-social {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.footer-social .link:hover {
+  color: white;
+  background: #31d0aa;
+}
+.social-title {
+  padding-bottom: 16px;
+  color: #fff;
+}
+.footer .container {
+  display: flex;
+}
