@@ -5,6 +5,7 @@
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/hero-bg.jpg);
+  width: max 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -30,7 +31,8 @@
 .btn {
   display: block;
   margin: auto;
-
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
   border-radius: 4px;
   padding: 16px 32px;
   letter-spacing: 0.04em;
@@ -42,4 +44,5 @@
 .btn:hover,
 .btn:focus {
   background: #404bbf;
+  transition: 250ms;
 }

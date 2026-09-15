@@ -39,6 +39,7 @@
     0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  transition: 250ms;
 }
 .portfolio-item:hover .overlay {
   transform: translateY(0);
@@ -49,7 +50,7 @@
   left: 0;
   padding: 40px 32px;
   transform: translateY(100%);
-  transition: 300ms ease-out;
+  transition: 250ms ease-out;
   transition-property: transform;
   font-weight: 400;
   width: 100%;
