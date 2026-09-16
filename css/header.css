@@ -18,7 +18,7 @@
   gap: 40px;
 }
 .main-nav-link {
-  transition: 250ms;
+  transition: color 250ms;
   position: relative;
   display: block;
   padding: 24px 0;
@@ -27,7 +27,6 @@
 }
 .main-nav-link:focus,
 .main-nav-link:hover {
-  transition: 250ms;
   color: #404bbf;
 }
 
@@ -42,11 +41,11 @@
   display: block;
   padding: 24px 0;
   font-weight: 500;
+  transition: color 250ms;
 }
 .social-link:focus,
 .social-link:hover,
 .main-nav-link.current {
-  transition: 250ms;
   color: #404bbf;
 }
 .main-nav-link.current::after {
@@ -57,7 +56,7 @@
   display: block;
   width: 100%;
   border-radius: 2px;
-  transition: 250ms;
+
   height: 4px;
   background: #404bbf;
 }

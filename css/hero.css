@@ -5,7 +5,7 @@
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/hero-bg.jpg);
-  width: max 1440px;
+  max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -40,9 +40,9 @@
   color: #fff;
   border: none;
   cursor: pointer;
+  transition: background 250ms;
 }
 .btn:hover,
 .btn:focus {
   background: #404bbf;
-  transition: 250ms;
 }

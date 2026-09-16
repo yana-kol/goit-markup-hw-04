@@ -32,10 +32,10 @@
   display: flex;
   flex-direction: row;
   gap: 16px;
+  transition: 250ms;
 }
 .footer-social .link:hover,
 .footer-social .link:focus {
-  transition: 250ms;
   color: #f4f4fd;
   background: #31d0aa;
 }

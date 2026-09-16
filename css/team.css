@@ -53,6 +53,9 @@
   display: flex;
   flex-direction: row;
   gap: 24px;
+  transition:
+    color,
+    background 250ms;
 }
 
 .team-wrapper {
@@ -68,7 +71,6 @@
 
 .team-social .link:hover,
 .team-social .link:focus {
-  transition: 250ms;
   color: #f4f4fd;
   background: #404bbf;
 }
