@@ -27,12 +27,12 @@
   height: 40px;
   background: #4d5ae5;
   color: #f4f4fd;
+  transition: 250ms;
 }
 .footer-social {
   display: flex;
   flex-direction: row;
   gap: 16px;
-  transition: 250ms;
 }
 .footer-social .link:hover,
 .footer-social .link:focus {

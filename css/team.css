@@ -47,15 +47,13 @@
   height: 40px;
   background: #4d5ae5;
   color: #f4f4fd;
+  transition: background 250ms ease-in-out;
 }
 
 .team-social {
   display: flex;
   flex-direction: row;
   gap: 24px;
-  transition:
-    color,
-    background 250ms;
 }
 
 .team-wrapper {
