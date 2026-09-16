@@ -41,7 +41,7 @@
   color: #fff;
   border: none;
   cursor: pointer;
-  transition: background-color 250ms ease-in-out;
+  transition: background 250ms ease-in-out;
 }
 .btn:hover,
 .btn:focus {
